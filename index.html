@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="card">
+
+        <img src="./assets/img/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large.jpg" alt="">
+
+        <h2>Iphone 11</h2>
+
+        <input id="cantidad" type="number" min="1" placeholder="Cantidad">
+
+        <select name="color" id="idcolor">
+            <option value="">Selecione una opcion</option>
+            <option value="purple">Morado</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarillo</option>
+            <option value="white">Blanco</option>
+            <option value="black">Negro</option>
+            <option value="red">Rojo</option>
+        </select>
+
+        <p>Precio: $<span class="precio"></span></p>
+
+        <button onclick="calcularTotal()">Calcular total</button>
+
+    </div>
+
+
+
+
+    <div class="total">
+
+        <p>Total:<span class="valortotal"></span></p>
+
+        <p>Cantidad:<span class="cantidadtotal"></span></p>
+
+        <div class="bola">
+            <p>Color:</p>
+            <div class="bolita"> </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

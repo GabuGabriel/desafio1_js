@@ -1,0 +1,64 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: rgb(87, 112, 182);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 600px;
+    border: solid black 3px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+img {
+    border-radius: 15px;
+    border: solid rgb(126, 92, 92) 1px;
+    height: 350px;
+    width: 350px;
+}
+
+#idcolor {
+    width: 170px;
+    height: 21px;
+}
+
+button {
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+.total {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.bola {
+    display: flex;
+}
+
+.bola div {
+    width: 25px;
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
