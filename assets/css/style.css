@@ -1,8 +1,12 @@
 body {
-    display: grid;
-    grid-template-columns: auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgb(87, 112, 182);
+    height: 100vh;
 }
 
 .card {

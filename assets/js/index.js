@@ -18,7 +18,7 @@ function calcularTotal() {
     const color = colorSelect.value
 
 
-    valorTotal.innerHTML = (+cantidad * precio).toLocaleString();
+    valorTotal.innerHTML = (cantidad * precio).toLocaleString();
     cantidadTotal.innerHTML = cantidad
     colorFinal.style.backgroundColor = color
 }
